@@ -1,9 +1,16 @@
 'use strict';
 
-console.log('5' * 3);   //15
-console.log('5' - '3'); //2
+const price = 1200;
 
-console.log('5' + 3);   //53
-console.log(parseInt('5', 10) + 3); //8
+// console.log(price > 1000); // true
+// console.log(price < 1000); // false
+// console.log(price >= 1000); // true
+// console.log(price <= 1000); // false
+// console.log(price === 1000); // false
+// console.log(price !== 1000); // true
 
-console.log(parseInt('hello', 10)); //NaN (Not a Number)
+// false <- 0, null, undefined, '', false
+// true <- それ以外
+
+console.log(Boolean(0));    //false
+console.log(Boolean('hello'));  //true
