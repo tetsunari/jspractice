@@ -2,10 +2,11 @@
 
 {
   document.querySelector('button').addEventListener('click', () => {
-    const targetNode = document.getElementById('target');
+    const item2 = document.createElement('li');
+    item2.textContent = 'item 2';
 
-      // targetNode.textContent = 'Dotinstall';
-      targetNode.textContent = ttargetNode.data-translation;
-    //   targetNode.data-translation; では機能しない
+    // const ulNode = document.querySelector('ul');
+    const ul = document.querySelector('ul');
+    ul.appendChild(item2);
   });
 }
