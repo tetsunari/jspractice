@@ -1,12 +1,15 @@
 'use strict';
 
-for (let i = 1; i <= 10; i++) {
-  // if (i === 4) {
-  // if (i % 3 === 0) {
-  //   continue;    //ループをスキップできる
-  // }
-  if (i === 4) {
-    break;  //4の時終わる
-  }
-  console.log(i);
+function showAd() {
+  console.log('----------');
+  console.log('--- Ad ---');
+  console.log('----------');
 }
+
+showAd();
+console.log('Tom is great!');
+console.log('Bob is great!');
+showAd();
+console.log('Steve is great!');
+console.log('Richard is great!');
+showAd();
