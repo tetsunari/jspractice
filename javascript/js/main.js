@@ -1,16 +1,29 @@
+// 'use strict';
+
+// function sum(a, b, c) {
+//   // console.log(a + b + c);
+//   return a + b + c;
+// }
+
+// // sum(1, 2, 3);
+// // sum(3, 4, 5);
+
+// const total = sum(1, 2, 3) + sum(3, 4, 5); // 18
+// // console.log(total);
+
+/*------------------------------------------------------------------*/
+
 'use strict';
 
-function showAd(message = 'Ad') { // 仮引数 || 「=」を使うことでデフォルト値の設定
-  console.log('----------');
-  console.log(`--- ${message} ---`);
-  console.log('----------');
-}
+// function sum(a, b, c) {
+//   return a + b + c;
+// }
 
-showAd('Header Ad'); // 実引数
-console.log('Tom is great!');
-console.log('Bob is great!');
-// showAd('Ad');
-showAd();
-console.log('Steve is great!');
-console.log('Richard is great!');
-showAd('Footer Ad');
+const sum = function(a, b, c) {
+  return a + b + c;
+};  //関数宣言には}の後に「;」を忘れないようにする
+
+const total = sum(1, 2, 3) + sum(3, 4, 5);
+console.log(total);
+
+//上と同じ結果になる
