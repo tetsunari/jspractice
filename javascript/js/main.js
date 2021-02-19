@@ -1,27 +1,7 @@
 'use strict';
 
-const signal = 'pink';
-
-// if (signal === 'red') {
-//   console.log('Stop!');
-// } else if (signal === 'yellow') {
-//   console.log('Caution!');
-// } else if (signal === 'blue'){
-//   console.log('Go!');
-// }
-
-switch (signal) {
-  case 'red':
-    console.log('Stop!');
-    break;
-  case 'yellow':
-    console.log('Caution!');
-    break;
-  case 'blue':
-  case 'green':
-    console.log('Go!');
-    break;
-  default:
-    console.log('Wrong signal!');
-    break;
+for (let i = 1; i <= 10; i++) {
+  // console.log('hello');
+//   console.log('hello' + i);
+  console.log(`hello ${i}`);    //文字列に値を埋め込むにはバッククオートを使う
 }
