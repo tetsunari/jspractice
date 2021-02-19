@@ -1,4 +1,11 @@
 'use strict';
 
-console.log('Hello world from main.js!');
-// Console.log('Hello world from main.js!');    //JavaScript の命令では大文字と小文字が厳密に区別されるので、こちらを大文字の C としてしまうと、そういった命令はないのでエラーになる
+console.log('hello');
+console.log("hello");
+
+// console.log('it's me!'); エラーになる
+console.log("it's me!");
+console.log('it\'s me!');
+
+console.log('hel\nlo wor\tld'); //開業とタブ
+console.log('hello' + 'world')
