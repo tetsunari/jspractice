@@ -1,16 +1,27 @@
 'use strict';
 
-const price = 1200;
+const signal = 'pink';
 
-// console.log(price > 1000); // true
-// console.log(price < 1000); // false
-// console.log(price >= 1000); // true
-// console.log(price <= 1000); // false
-// console.log(price === 1000); // false
-// console.log(price !== 1000); // true
+// if (signal === 'red') {
+//   console.log('Stop!');
+// } else if (signal === 'yellow') {
+//   console.log('Caution!');
+// } else if (signal === 'blue'){
+//   console.log('Go!');
+// }
 
-// false <- 0, null, undefined, '', false
-// true <- それ以外
-
-console.log(Boolean(0));    //false
-console.log(Boolean('hello'));  //true
+switch (signal) {
+  case 'red':
+    console.log('Stop!');
+    break;
+  case 'yellow':
+    console.log('Caution!');
+    break;
+  case 'blue':
+  case 'green':
+    console.log('Go!');
+    break;
+  default:
+    console.log('Wrong signal!');
+    break;
+}
