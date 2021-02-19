@@ -1,7 +1,9 @@
 'use strict';
 
-console.log(typeof 'hello');
-console.log(typeof 5);
-console.log(typeof true);
-console.log(typeof undefined);
-console.log(typeof null);
+console.log('5' * 3);   //15
+console.log('5' - '3'); //2
+
+console.log('5' + 3);   //53
+console.log(parseInt('5', 10) + 3); //8
+
+console.log(parseInt('hello', 10)); //NaN (Not a Number)
