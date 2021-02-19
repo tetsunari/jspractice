@@ -1,7 +1,15 @@
 'use strict';
 
-for (let i = 1; i <= 10; i++) {
-  // console.log('hello');
-//   console.log('hello' + i);
-  console.log(`hello ${i}`);    //文字列に値を埋め込むにはバッククオートを使う
-}
+// let hp = 100;
+
+// while (hp > 0) {
+//   console.log(`${hp} HP left!`);
+//   hp -= 15;
+// }
+
+let hp = -50;
+
+do {
+  console.log(`${hp} HP left!`);
+  hp -= 15;
+} while (hp > 0);   //一回は実行される
